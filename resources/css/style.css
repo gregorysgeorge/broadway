@@ -1,6 +1,12 @@
 *   {
     font-family: Helvetica, sans-serif, Arial;
+}
+body {
     text-align: center;
+}
+
+header {
+    background-image: url("/Users/giorgiodigregorio/Documents/Web/projects/broadway/resources/images/the-flatiron-building.png");
 }
 
 h1 {
@@ -9,10 +15,17 @@ h1 {
     color: white;
 }
 
-ul {
+nav {
     font-size: 18px;
+    text-align: center;
     color: white;
+    line-height: 32px;
+    cursor: pointer;
+    list-style-type: none;
+    text-decoration: underline;
 }
+
+/*--First section under the header and the navbar--*/
 
 h2 {
     Font-size: 32px;
@@ -28,14 +41,26 @@ p {
     font-size: 14px;
 }
 
+/*--Second section--*/
 h3 {
+    background-image: url("/Users/giorgiodigregorio/Documents/Web/projects/broadway/resources/images/the-flatiron-building.png");
     font-size: 23px;
     font-weight: bold;
     color: white; 
 }
 
-footer {
-    font-size: 11px;
-    color: white;
+/*--footer--*/
+.footer {
     background-color: dimgray;
+    Font-size: 11px;
+    color: white;
+    text-align: left;
+}
+
+#btn-nav {
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+
 }
